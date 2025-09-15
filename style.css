@@ -51,12 +51,16 @@ body {
   border-radius: 5px;
   padding: 18px 22px;
   display: inline-block;
+  border-radius: 50px;
 }
 
 .hero-img {
   padding-left: 160px;
 }
 
+img{
+  border-radius: 12px;
+}
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -100,13 +104,16 @@ body {
 .feature-icon {
   width: 40px;
   color: #2996ff;
-  margin-bottom: 20px;
+  margin-bottom: 20px; 
+  
 }
 
 /* testimonial */
 
 .testimonials {
   padding-top: 40px;
+  
+  
 }
 
 .testimonial {
@@ -116,6 +123,7 @@ body {
   background-color: #2996ff;
   align-items: center;
   border-radius: 10px;
+  border-radius: 12px;
 }
 .test-info {
   padding-right: 40px;
@@ -144,10 +152,11 @@ body {
 }
 
 /* Product cards */
-/* .single-card {
-  background-color: rgb(248, 248, 248);
-  padding: 16px;
-} */
+.single-card {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
 
 .product-detail {
   padding: 0px 10px;
@@ -183,13 +192,14 @@ body {
 }
 
 .product-btn a {
-  font-size: 20px;
+  font-size: 15px;
   background-color: #2996ff;
   display: inline-block;
   padding: 8px 12px;
   margin: 10px 0px;
   text-decoration: none;
   color: white;
+  border-radius: 50px;
 }
 
 .products {
